@@ -1,34 +1,68 @@
 body {
     margin-top: 0px;
     padding: 100px;
-    padding-top: 0px;
     background-color: salmon;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
-    margin-top: 0px;
+body article {
     text-align: center;
-}
-
-
-a {
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px;
-    background-color: rgb(255, 255, 132);
-    border-radius: 10px;
-    margin: 5px;
-}
-a:hover {
-    background-color: tomato;
 }
 img {
     max-width: 100%;
 }
-section img {
-    max-width: 206px;
+
+/* header */
+header {
+    padding-top: 0px;
+    min-height: 50px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.777);
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
+ header h1 {
+    padding-left: 50px;
+}
+header img {
+    width: 50px;
+    float: left;
+    margin: 10px;
+}
+header .github-logo {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+/* header */
+
+
+
+
+/*
+.download-links
+.d-one
+.d-two
+.d-three
+*/
+.download-links .d-one, .download-links .d-two, .download-links .d-three {
+    width: 300px;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    background-color: thistle;
+    border: 2px solid black;
+    text-align: center;
+}
+
+
+
+
+
 /*
 section {
     padding: 20px;
