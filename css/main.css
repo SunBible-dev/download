@@ -59,6 +59,19 @@ header .github-logo {
     text-align: center;
 }
 
+.other .download-links .d-one, .other .download-links .d-two, .other .download-links .d-three {
+    width: 100%;
+    float: none;
+    padding: 20px;
+    background-color: thistle;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.other .download-links .d-one img {
+width: 200px;
+}
+
 
 
 
